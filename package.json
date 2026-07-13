@@ -15,8 +15,7 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "biome check index.ts",
-    "test": "tsx index.ts test/mock/mock.har"
+    "lint": "biome check index.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.3",
