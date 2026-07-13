@@ -1,0 +1,30 @@
+{
+  "name": "har-segment-extractor",
+  "version": "0.0.0",
+  "description": "Simple HAR extractor for mp4 segment files",
+  "keywords": [
+    "har",
+    "mp4",
+    "media",
+    "segment",
+    "init"
+  ],
+  "license": "MIT",
+  "author": "Wojciech Tyczyński",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "biome check index.ts",
+    "test": "tsx index.ts test/mock/mock.har"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.3",
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
